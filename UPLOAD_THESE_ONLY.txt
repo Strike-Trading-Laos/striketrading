@@ -9,5 +9,6 @@ Upload/replace only these files at the site root:
 - course-fibonacci.html
 - course-liquidity-smc.html
 - course-risk-management.html
+- online-regis/index.html (new folder online-regis at the site root)
 
 No font files are included. Fonts are loaded directly from Google Fonts using <link> tags for better iOS/Safari reliability.
