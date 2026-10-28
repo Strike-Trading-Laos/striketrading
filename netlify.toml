@@ -1,0 +1,5 @@
+# The site is served by Netlify (www.striketrading.la -> striketradinglaos.netlify.app).
+# Plain HTML: no build step, publish the repository root.
+[build]
+  publish = "."
+  command = ""
