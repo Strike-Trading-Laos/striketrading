@@ -3,3 +3,14 @@
 [build]
   publish = "."
   command = ""
+
+# Old registration link, kept working for links already shared. Netlify keeps ?class=... on the redirect.
+[[redirects]]
+  from = "/online-regis"
+  to = "/online-class-regis/"
+  status = 301
+
+[[redirects]]
+  from = "/online-regis/*"
+  to = "/online-class-regis/"
+  status = 301
