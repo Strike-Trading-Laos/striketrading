@@ -4,13 +4,15 @@
   publish = "."
   command = ""
 
-# Old registration link, kept working for links already shared. Netlify keeps ?class=... on the redirect.
+# Old registration links, kept working for links already shared. They go straight to the
+# registration system. Netlify keeps ?class=... on the redirect.
+# /online-class-regis/ is a real page (online-class-regis/index.html) that also sends visitors there.
 [[redirects]]
   from = "/online-regis"
-  to = "/online-class-regis/"
+  to = "https://regis.striketrading.la/"
   status = 301
 
 [[redirects]]
   from = "/online-regis/*"
-  to = "/online-class-regis/"
+  to = "https://regis.striketrading.la/"
   status = 301
